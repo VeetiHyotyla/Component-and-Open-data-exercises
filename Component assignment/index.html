@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header"></header>
+
+    <div class="product-form">
+        <h2>Select Product</h2>
+        <form id="product-form">
+            <label for="select">Product:</label>
+            <select id="select"></select>
+            
+            <div class="quantity">
+                <button type="button" id="decrease-btn">-</button>
+                <span id="quantity">0</span>
+                <button type="button" id="increase-btn">+</button>
+            </div>
+            
+            <div class="display">
+                <p>Price: <span id="price">€0</span></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="order-info">
+        <h2>Order Information</h2>
+        <ul id="order-list"></ul>
+        <p id="total-price">Total Price: €0</p>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
