@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  header img {
+    height: 100%;
+    max-height: 5rem;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .product-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity button {
+    padding: 10px;
+    font-size: 16px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+  
+  .quantity span {
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  .display {
+    margin-top: 20px;
+  }
+  
+  .display p {
+    font-size: 18px;
+  }
+  
+  .order-info {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .order-info h2 {
+    margin-bottom: 10px;
+  }
+  
